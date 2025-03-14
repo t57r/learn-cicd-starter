@@ -47,4 +47,4 @@ jobs:
         run: test -z $(staticcheck ./...)
 
       - name: Run gosec check
-        run: test -z $(gosec ./...)
+        run: gosec ./...
